@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_all_recipes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dev.indianrecipes.AllRecipes"
+
+    android:background="@drawable/ricee">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <Button
+                    android:textColor="@android:color/holo_red_dark"
+                    android:text="Dosa Recipes"
+                    android:fontFamily="cursive"
+                    android:textSize="25dp"
+                    android:textColorLink="@android:color/holo_red_dark"
+                    android:background="@android:color/transparent"
+                    android:layout_width="202dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/dosa"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignRight="@+id/aluparatha"
+                    android:layout_alignEnd="@+id/aluparatha" />
+
+                <Button
+                    android:textColor="@android:color/holo_red_dark"
+                    android:text="Alu Paratha"
+                    android:fontFamily="cursive"
+                    android:textSize="25dp"
+                    android:textColorLink="@android:color/holo_red_dark"
+                    android:layout_width="230dp"
+                    android:layout_height="35dp"
+                    android:background="@android:color/transparent"
+                    android:id="@+id/aluparatha"
+                    android:layout_marginTop="39dp"
+                    android:layout_below="@+id/pathiri"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:textColor="@android:color/holo_red_dark"
+                    android:text="Idli Recipes"
+                    android:fontFamily="cursive"
+                    android:textSize="25dp"
+                    android:textColorLink="@android:color/holo_red_dark"
+                    android:layout_width="202dp"
+                    android:layout_height="35dp"
+
+                    android:background="@android:color/transparent"
+                    android:id="@+id/idli"
+                    android:layout_marginTop="34dp"
+                    android:layout_below="@+id/dosa"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:textColor="@android:color/holo_red_dark"
+                    android:text="Poha"
+                    android:fontFamily="cursive"
+                    android:textSize="25dp"
+                    android:textColorLink="@android:color/holo_red_dark"
+                    android:layout_width="202dp"
+                    android:layout_height="35dp"
+                    android:background="@android:color/transparent"
+                    android:id="@+id/poha"
+                    android:layout_marginTop="21dp"
+                    android:layout_below="@+id/idli"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:textColor="@android:color/holo_red_dark"
+                    android:text="Upma"
+                    android:fontFamily="cursive"
+                    android:textSize="25dp"
+                    android:textColorLink="@android:color/holo_red_dark"
+                    android:layout_width="202dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/upma"
+
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="14dp"
+                    android:layout_below="@+id/aluparatha"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:textColor="@android:color/holo_red_dark" android:text="Gobi Paratha"
+                    android:fontFamily="cursive"
+                    android:textSize="25dp"
+                    android:textColorLink="@android:color/holo_red_dark"
+                    android:layout_width="202dp"
+                    android:layout_height="35dp"
+                    android:background="@android:color/transparent"
+                    android:id="@+id/pathiri"
+                    android:layout_marginTop="32dp"
+                    android:layout_below="@+id/poha"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

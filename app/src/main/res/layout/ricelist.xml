@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+  >
+
+    <ListView
+        android:id="@+id/ricelist"
+        android:divider="@drawable/divider"
+        android:dividerHeight="20dp"
+        android:background="@drawable/ricee"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text=""
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewLunch" />
+</LinearLayout>

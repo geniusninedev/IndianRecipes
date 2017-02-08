@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ListView
+        android:id="@+id/snacks"
+        android:background="@drawable/snnn"
+        android:divider="@drawable/divider"
+        android:dividerHeight="20dp"
+           android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:text=""
+        android:textSize="30dp"
+         android:fontFamily="cursive"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewSnacks" />
+
+
+</RelativeLayout>
